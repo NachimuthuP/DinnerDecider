@@ -138,6 +138,19 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="60dp"
         android:layout_height="59dp"
+        android:layout_marginTop="248dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="W"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/noBall"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/wicket2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="112dp"
